@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+}
+
+input[type=text] {
+  margin:0 20px;
+  width: 130px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-image: url(chat.svg);
+  background-position: 3px 3px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 50px;
+  -webkit-transition: width 0.1s ease-in-out;
+  transition: width 0.4s ease-in-out;
+  position: fixed;
+  bottom: 0;
+}
+  
+input[type=text]:focus {
+  width: 90%;
+}
+
+li{
+  list-style-type: none;
+}
+
+li:nth-child(even){
+  background-color: #dcdcdc;
+}
